@@ -30,7 +30,7 @@ class Mail:
         return wrapper
 
     @check
-    def send(self, content='default', subject='mt论坛自动签到提醒'):
+    def send(self, content='default', subject='奶昔论坛自动签到提醒'):
         """你要发送的邮件内容
 
         :param content: 发送的内容
