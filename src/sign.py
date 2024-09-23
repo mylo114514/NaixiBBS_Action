@@ -19,8 +19,8 @@ METHOD_TYPE = Literal['html', 'hash']
 
 class MtSignClass:
     """签到类"""
-    login_url = 'https://bbs.binmt.cc/member.php'
-    sign_url = 'https://bbs.binmt.cc/k_misign-sign.html'
+    login_url = 'https://bbs.naixi.net/member.php'
+    sign_url = 'https://bbs.naixi.net/k_misign-sign.html'
 
     def __init__(self, username: Optional[str] = None, password: Optional[str] = None) -> None:
         """初始化
@@ -79,7 +79,7 @@ class MtSignClass:
         }
         data = {
             'formhash': form_hash,
-            'referer': 'https://bbs.binmt.cc/index.php',
+            'referer': 'https://bbs.naixi.net/index.php',
             'loginfield': 'username',
             'username': self.username,
             'password': self.password,
@@ -138,7 +138,7 @@ class MtSignClass:
         form_hash = self.sign_page('hash')
         if form_hash:
             # 模拟签到
-            sign_url = 'https://bbs.binmt.cc/plugin.php'
+            sign_url = 'https://bbs.naixi.net/plugin.php'
             params = {
                 "id": "k_misign:sign",
                 "operation": "qiandao",
