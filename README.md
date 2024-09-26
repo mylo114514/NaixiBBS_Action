@@ -3,13 +3,14 @@
 ## 一. 使用说明：
 
 1. 添加 Repository secrets
+   Setting --> Secrets and Variables --> Actions --> Repository secrets
 
    `完成后如图`
    ![](https://upload.cc/i1/2023/03/17/CaEIuH.png)
 
 
-2. 有关使用的配置说明
-Setting --> Secrets and Variables --> Actions --> Repository secrets
+3. 有关使用的配置说明
+
 |   环境变量名   |      描述      | 是否必须 |     默认值     |
 |:---------:|:------------:|:----:|:-----------:|
 | USERNAME  |   奶昔论坛的账号    |  必填  |      无      |
